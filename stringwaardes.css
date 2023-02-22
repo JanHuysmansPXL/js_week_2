@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Circe, Arial, Verdana, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #dff6ff;
+    padding: .5rem;
+}
+
+.header__titel {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.opdracht__titel {
+    display: block;
+    text-align: center;
+    padding: .2rem;
+    margin: .75rem auto;
+
+}
+
+.opdracht__list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.opdracht__listitem {
+    margin-bottom: .75rem;
+}
+
+.vraag {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.antwoord {
+    font-size: .8rem;
+    margin-left: 1rem;
+}
+
+.resultaat {
+    font-weight: bold;
+    color: darkblue;
+}
