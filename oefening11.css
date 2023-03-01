@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Circe, Arial, sans-serif;
+}
+
+body {
+
+    background-color: #1a1a1a;
+}
+
+/* UTILITIES */
+
+.codeblock {
+    color: #0d6efd;
+    font-family: monospace;
+}
+
+/* HEADER SECTIE */
+
+header {
+    background-color: #1f1f1f;
+    color: #ffffff
+;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header__titel {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+/* NAVBAR SECTIE */
+
+nav {
+    background-color: #ffd8d8;
+}
+
+.navbar__list {
+    list-style-type: none;
+}
+
+.navbar__listitem {
+    text-align: center;
+    border-right: 1px solid #000000;
+}
+
+.navbar__link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.navbar__link:hover {
+    color: #ff2020;
+}
+
+/* MAIN SECTIE */
+
+.operatoren {
+    background-color: #FFFFFF;
+}
+
+.toewijzing {
+    background-color: #ffbfbf;
+}
+
+.operatoren__img,
+.toewijzing__img {
+    width: 100%;
+    border-radius: .2rem;
+}
+
+/* TABLE */
+
+.overzicht {
+    background-color: #FFFFFF;
+}
+.overzicht table {
+    width: 900px;
+}
+.overzicht table, tr, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: .4rem;
+}
+
+.overzicht thead tr:first-of-type {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: #FFF;
+    color: #0f3a77;
+}
+
+.overzicht thead tr:nth-of-type(2) {
+    text-align: center;
+    font-weight: 600;
+    font-size: .9rem;
+    background-color: #dbe8fd;
+    color: #0f3a77;
+}
+
+.overzicht tbody tr td:nth-of-type(1) {
+    background-color: #ffd9d9;
+}
+
+.overzicht tbody tr td:nth-of-type(2) {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+/* FOOTER SECTIE */
+
+.footer__text {
+    text-align: center;
+    color: #FFFFFF;
+}

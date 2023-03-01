@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Circe, Arial, sans-serif;
+}
+
+body {
+    background-color: #229ed1;
+}
+
+/* HEADER SECTIE */
+
+header {
+    background-color: white;
+    color: #229ed1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header__titel {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+/* NAVBAR SECTIE */
+
+nav {
+    background-color: #002961;
+}
+
+.navbar__list {
+    list-style-type: none;
+}
+
+.navbar__listitem {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.navbar__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar__link:hover {
+    color: #edba96;
+}
+
+/* MAIN SECTIE */
+
+.welkom {
+    background-color: #FFFFFF;
+}
+
+.info {
+    background-color: #dff6ff;
+}
+
+.welkom__img,
+.info__img {
+    width: 100%;
+    border-radius: .2rem;
+}
+
+/* FOOTER SECTIE */
+
+.footer__text {
+    text-align: center;
+    color: #FFFFFF;
+}

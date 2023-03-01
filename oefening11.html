@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en, nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 2 - Oefening 11 - Operatoren</title>
+    <script defer src="oefening11.js"></script>
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="oefening11.css">
+</head>
+<body>
+<header class="header container-fluid mx-auto">
+    <h1 class="header__titel mx-auto">Operatoren</h1>
+</header>
+<nav class="navbar p-3">
+    <ul class="navbar__list row align-items-center">
+        <li class="navbar__listitem col-4"><a class="navbar__link" href="#">link1</a></li>
+        <li class="navbar__listitem col-4"><a class="navbar__link" href="#">link2</a></li>
+        <li class="navbar__listitem col-4"><a class="navbar__link" href="#">link3</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="operatoren container-xl p-5 mt-3 mx-auto">
+        <div class="row align-items-center">
+            <div class="col-8">
+                <h2 class="operatoren_titel py-2">Soorten Operatoren</h2>
+                <p class="operatoren__text">Operatoren hebben we in het vorige hoofdstuk al gebruikt. Met operatoren kunnen we de variabelen in een script optellen, aftrekken vergelijken of overige handelingen mee uitvoeren.</p>
+                <p class="operatoren__text mt-2">We kunnen operatoren in verschillende categorieën indelen:</p>
+                <ul class="mt-2">
+                    <li>Toewijzingsoperatoren (assignment operators)</li>
+                    <li>Wiskundige operatoren (arithmic operators)</li>
+                    <li>Stringoperatoren (string operators)</li>
+                    <li>Logische operatoren (logical operators)</li>
+                    <li>Bitoperatoren (bitwise operators)</li>
+                    <li>Vergelijkingsoperatoren (comparison operators)</li>
+                    <li>speciale (overige) operatoren</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <img class="operatoren__img" src="code.jpg" alt="code">
+            </div>
+        </div>
+    </section>
+    <section class="toewijzing container-xl p-5 mx-auto">
+        <div class="row">
+            <div class="col-4">
+                <img class="toewijzing__img" src="code.jpg" alt="Plaats Feestje">
+            </div>
+            <div class="col-8">
+                <div class="p-4">
+                    <h2 class="toewijzing_titel py-2">1. Toewijzingsoperatoren</h2>
+                    <p class="toewijzing__text">Het isgelijkteken (=) is een toewijzingsoperator en gebruiken we voor:</p>
+                    <ul class="mt-2">
+                        <li>Toewijzen van variabelen.</li>
+                        <li>Wijzigen van waarden van variabelen.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTIE MET TABEL OPERATOREN -->
+
+    <section class="overzicht container-xl p-5 mx-auto">
+        <table class="mx-auto">
+            <thead>
+                <tr>
+                    <td class="p-2" colspan="5">Operatoren Overzicht</td>
+                </tr>
+                <tr>
+                    <td>Type Operator</td>
+                    <td>Symbool</td>
+                    <td>Uitleg</td>
+                    <td>Script</td>
+                    <td>Uitkomst</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Toewijzingsoperatoren</td>
+                    <td>=</td>
+                    <td>Declareren / Waarde toekennen.</td>
+                    <td class="codeblock" >let antwoord = "Toewijzing";</td>
+                    <td id="operator1"></td>
+                </tr>
+                <tr>
+                    <td>Toewijzingsoperatoren</td>
+                    <td>=</td>
+                    <td>Aanpassen waarde</td>
+                    <td class="codeblock">uitkomst = "Nieuwe uitkomst";</td>
+                    <td id="operator2"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>+</td>
+                    <td>Numerieke waarden optellen.<br>3 en 5</td>
+                    <td class="codeblock">som = getal1 + getal2;</td>
+                    <td id="som"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>-</td>
+                    <td>Numerieke waarden aftrekken.<br>3 en 5</td>
+                    <td class="codeblock">verschil = getal1 - getal2;</td>
+                    <td id="verschil"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>*</td>
+                    <td>Numerieke waarden vermenigvuldigen.<br>3 en 5</td>
+                    <td class="codeblock">product = getal1 * getal2;</td>
+                    <td id="product"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>/</td>
+                    <td>Numerieke waarden delen.<br>3 en 5</td>
+                    <td class="codeblock">quotient = getal1 / getal2;</td>
+                    <td id="quotient"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>%</td>
+                    <td>Restwaarde berekenen.<br>3 en 5</td>
+                    <td class="codeblock">rest = getal1 % getal2;</td>
+                    <td id="restwaarde"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>++</td>
+                    <td>Optellen met +1.<br>3</td>
+                    <td class="codeblock">getal1++;</td>
+                    <td id="plus1"></td>
+                </tr>
+                <tr>
+                    <td>Wiskundige Operatoren</td>
+                    <td>--</td>
+                    <td>Optellen met -1.<br>3</td>
+                    <td class="codeblock">getal1--;</td>
+                    <td id="min1"></td>
+                </tr>
+                <tr>
+                    <td>Stringoperatoren</td>
+                    <td>+</td>
+                    <td>Concatenatie: Samenvoegen van "strings".</td>
+                    <td class="codeblock">let zin = string1 + " " + string2;</td>
+                    <td id="zin"></td>
+                </tr>
+                <tr>
+                    <td>Logische operatoren</td>
+                    <td>&&</td>
+                    <td>Logische ‘en’.</td>
+                    <td class="codeblock">vergelijking = getal1 && getal2;</td>
+                    <td id="en"></td>
+                </tr>
+                <tr>
+                    <td>Logische operatoren</td>
+                    <td>&&</td>
+                    <td>Logische ‘en’.</td>
+                    <td class="codeblock">vergelijking = getal1 && getal2;</td>
+                    <td id="en2"></td>
+                </tr>
+                <tr>
+                    <td>Logische operatoren</td>
+                    <td>||</td>
+                    <td>Logische ‘of’.</td>
+                    <td class="codeblock">(getal1 == 3) && (getal2 == 5);</td>
+                    <td id="zin"></td>
+                </tr>
+                <tr>
+                    <td>Logische operatoren</td>
+                    <td>!</td>
+                    <td>Logische ‘niet'.</td>
+                    <td class="codeblock">let zin = string1 + " " + string2;</td>
+                    <td id="xx"></td>
+                </tr>
+
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+</main>
+<footer class="footer container-fluid p-2">
+    <p class="footer__text">&copy; Jan Huysmans</p>
+</footer>
+</body>
+</html>
+
+<!--
+
+Wiskundige operatoren
+Stringoperatoren
+Logische operatoren
+Bitoperatoren
+Vergelijkingsoperatoren
+Speciale operatoren
+
+-->

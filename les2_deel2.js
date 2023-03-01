@@ -1,4 +1,4 @@
-// Declareren = Variablenen aanmaken met een naam
+// Declareren = Variabelen aanmaken met een naam
 
 let legoblokjes;
 
