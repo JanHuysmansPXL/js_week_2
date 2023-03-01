@@ -1,4 +1,4 @@
-let welkom = "hallo iedereen";
+let welkom = "Welkom in de les Web Advanced";
 let uitkomst;
 
 // 1. hoeveel characters bevat deze string ?

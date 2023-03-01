@@ -1,5 +1,7 @@
-let zin = "ik wil een koekje.";
+let zin = "IK WIL EEN LASAGNE VAN PXL-CATERING";
 let uitkomst;
+
+document.getElementById("titel").innerText = (zin);
 
 uitkomst = zin.charAt(0);
 console.log(uitkomst);
